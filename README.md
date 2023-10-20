@@ -137,10 +137,12 @@ Importar arquivo [Cash Plataform.postman_collection.json] que está na pasta **p
 * E depois realizar o download do relatório em excel, clique no **postman** em **Send or Download**
 ![Relatorio em Excel](https://marraiarolha.blob.core.windows.net/images/currentaccount3.png)
 
-* Relatório com a aba **Consolidado** em aberto
+* Relatório com a aba **Consolidado** em aberto  
+
 ![Relatorio Consolidado](https://marraiarolha.blob.core.windows.net/images/currentaccount4.png)
 
-* Relatório com a aba **Extrato** em aberto
+* Relatório com a aba **Extrato** em aberto  
+
 ![Relatorio Extrato](https://marraiarolha.blob.core.windows.net/images/currentaccount5.png)
 
 
