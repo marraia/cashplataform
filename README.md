@@ -98,8 +98,7 @@ API de fluxo de caixa diário com os lançamentos (débitos e créditos), e rela
 Download de arquivo de extensão **.xls**
 
 ## Testes unitários
-O resultado dos testes unitários estão em: **testunits\TestResults\177db37c-cdba-4494-be32-072ab446036b\coveragereport\index.html**  
-
+O resultado dos testes unitários: **99,4%** em relação ao código de negócio
 ![Relatório Testes Unitários](https://marraiarolha.blob.core.windows.net/images/currentaccount8.png)
 
 
