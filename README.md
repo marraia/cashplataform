@@ -125,7 +125,7 @@ Execute em seu terminal o comando
 
 Caso queira que os serviços sejam parados, execute em seu terminal na pasta raiz do projeto o comando
 ```bash
-  docker-compose down -d
+  docker-compose down
 ```
 
 #### Execução via Postman
