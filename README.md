@@ -124,7 +124,7 @@ Caso queira que os serviços sejam parados, execute em seu terminal na pasta rai
 
 #### Execução via Postman
 **Observação**
-* Como na descrição do desafio não foi explicado qual tipo de serviço (FRONT/APP) deveria ser desenvolvido para que o usuário pudesse se interagir, coloquei a interação via **Postman**, para compreender o resultado;
+* *Como na descrição do desafio não foi explicado qual tipo de serviço (FRONT/APP) deveria ser desenvolvido para que o usuário pudesse se interagir, coloquei a interação via **Postman**, para compreender o resultado;*
 
 Importar arquivo [Cash Plataform.postman_collection.json] que está na pasta **postman** na raiz do repositório
 
