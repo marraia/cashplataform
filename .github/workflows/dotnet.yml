@@ -21,11 +21,11 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore CashPlataform.sln
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build CashPlataform.sln --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test src/Tests/CashPlataform.Tests --no-build --verbosity normal
     
     - name: Setup .NET Core # Required to execute ReportGenerator
       uses: actions/setup-dotnet@v3
