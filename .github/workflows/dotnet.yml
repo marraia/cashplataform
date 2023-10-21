@@ -36,7 +36,7 @@ jobs:
     - name: ReportGenerator
       uses: danielpalme/ReportGenerator-GitHub-Action@5.1.26
       with:
-        reports: src/Tests/CashPlataform.Test/coverage.opencover.xml
+        reports: src/Tests/CashPlataform.Tests/coverage.opencover.xml
         targetdir: coveragereport
         reporttypes: Html;Badges
         assemblyfilters: '- CashPlataform.API;- CashPlataform.Tests;- Authorization.Adapter;- Excel.Adapter;- CashPlataform.Infrastructure.IoC;- CashPlataform.Infrastructure.Repositories'
