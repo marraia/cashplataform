@@ -17,7 +17,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Install EPPLus
-      run : apt-get update apt-get install -y --no-install-recommends libgdiplus libc6-dev 
+      run : apt-get update
+    - name: EPPlus
+      run: apt-get install -y --no-install-recommends libgdiplus libc6-dev
     - name: Clean
       run: apt-get clean rm -rf /var/lib/apt/lists/*
     - name: Setup .NET
