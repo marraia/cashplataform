@@ -25,7 +25,9 @@ jobs:
     - name: Build
       run: dotnet build CashPlataform.sln --no-restore
     - name: Install EPPLus
-      run : apt-get update apt-get install -y --no-install-recommends libgdiplus libc6-dev apt-get clean rm -rf /var/lib/apt/lists/*
+      run : apt-get update apt-get install -y --no-install-recommends libgdiplus libc6-dev 
+    - name: Clean
+      run: apt-get clean rm -rf /var/lib/apt/lists/*
     - name: Test
       run: dotnet test src/Tests/CashPlataform.Tests /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=coverage.opencover.xml --no-build --verbosity normal
     
