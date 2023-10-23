@@ -18,6 +18,9 @@ namespace Excel.Adapter
         const int BalanceColumn = 4;
         public byte[] GenerateReportDailyAsync(AccountReport accountReport)
         {
+            if (accountReport == null)
+                return default;
+
             using (var excelPackage = new ExcelPackage())
             {
                 var worksheet = excelPackage.Workbook.Worksheets.Add("Consolidado Diário");
