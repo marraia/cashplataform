@@ -71,4 +71,4 @@ jobs:
       run: kubectl apply -n demo -f $GITHUB_WORKSPACE/k8s/deployment.yml
 
     - name: Verify deployment
-      run: kubectl rollout status deployment/cashplatform
+      run: kubectl -n demo rollout status deployment/cashplatform
